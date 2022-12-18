@@ -16,20 +16,23 @@ header {
     left: 0;
     top: 0;
     scroll-behavior: smooth;
+    height: 80px;
 }
 .nav-bar{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 10px 30px;
+    padding: 5px 30px;
 }
 
 header li{
     display: inline;
     list-style: none;
-    padding: 0 12px;
+    padding: 0 20px;
 }
 header li a{
+    height: 60px;
+    padding: 8px;
     text-decoration: none;
     color: rgb(3, 3, 3) !important;
     font-size: 20px;
@@ -126,7 +129,6 @@ header li a{
 }
 
 .contact-details{
-    /* border: 8px solid rgb(224, 224, 224); */
     border-radius: 3px;
     padding: 10px;
     margin-top: 20px;
@@ -187,3 +189,12 @@ textarea{
 .copyright a{
     text-decoration: none;
 }
+
+/* hover */
+
+.nav-bar li a:hover {
+    color: #fff !important;
+    border-radius: 3px;
+    background-color: #5479a3;
+}
+
