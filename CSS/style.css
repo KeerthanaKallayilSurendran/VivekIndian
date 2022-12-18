@@ -75,7 +75,8 @@ header li a{
     height: auto;
     justify-content: flex-start;
     flex-direction: row;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about-hero-image{
@@ -90,5 +91,23 @@ header li a{
     padding-left: 80px;
     padding-right: 80px;
     font-size: 24px;
+}
+
+/* Porfoli section */
+
+.portfolio-page{
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    margin-bottom: 50px;
+    flex-flow:  row wrap;
+}
+.painting{
+    height: 400px;
+    margin: 10px 10px;
+}
+.painting img{
+   height: 350px;
+   border: 8px solid rgb(224, 224, 224);
 }
 
